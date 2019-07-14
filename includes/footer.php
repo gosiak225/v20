@@ -1,10 +1,8 @@
 </body>
 
-<!-- footer with instagram icon and email adress -->
 <footer class="footer">
     <div class="footer-icons">
       <ul class="icons">
-        <!-- aria-hidden --- Indicates that the element and all of its descendants are not visible or perceivable to any user as implemented by the author. -->
           <li> <a href="https://www.instagram.com/thizy.lucie/" class=" instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
           <li class="email tooltip">
               <i class="fa fa-envelope" aria-hidden="true" id="mail" onclick="setClipboard('thizy.lucie@gmail.com')"><span class="tooltiptext" id="text" >Cliquez ici pour copier mon adress mail</span>
