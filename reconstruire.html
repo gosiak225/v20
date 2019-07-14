@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="Małgorzata Kamińska" name="author">
+  <meta name="google" content="notranslate" />
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <link href="./images/images-logo/LuT_0.ico" rel="icon" id="icon">
+  <title>Lucie Thizy</title>  
+
+  <link href="./css/page-layout.css" rel="stylesheet">
+  <link href="./css/button.css" rel="stylesheet">
+</head>
+
+<header>
+  <div class = "topnav">
+      <a href="./index.html" id="logo">
+        <img src="./images/images-logo/LuT.svg" alt="LuT" height="80px" width="80px" />
+      </a>
+        <div id="myTopnav">
+          <a href="./index.html" id ="brand"><strong>Lucie Thizy</strong><br><span id="artist"> - Artiste peintre </span></a>
+          <a href="./portfolio.html" class="menu"><br>PORTFOLIO</a>
+          <a href="./contact.html" class="menu"><br>Contact</a>
+          <a href="./apropos.html" class="menu"><br>Á propos</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+  </div>
+  <script src="./java-script/navigation_bar_on_small_screens.js"></script>
+</header>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Marck+Script&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet"> 
+<script type="text/javascript"> 
+  document.addEventListener("contextmenu", function(e){
+    e.preventDefault();
+  }, false);
+</script>
+
+<body>
+  <div class="about-container" id="container-painting">
+        <div class="column once" id="column-painting">
+                <img id="painting-photo" src="images/images-paintings/70cmx50cm(reconstruire).jpg" width="60%"  >
+                <div id="myModal" class="modal">
+                  <span class="close">&times;</span>
+                  <img class="modal-content" id="img01">
+                </div>
+        </div>
+        <div class="column two" id="column-painting-info">
+                <p id="painting-title">Tableau <span id="painting-name">"Reconstruire"</span></p>
+                <p id="painting-method"> Peinture acrylique</p>
+                <p id="painting-format"> Format 70cm x 50cm</p>
+                <p id="painting-details"> (Peinture sur toile) </p>
+        </div>
+    </div>
+  </div>
+  <script src="./java-script/modal-zoom.js">  </script>
+</body>
+
+<footer class="footer">
+    <div class="footer-icons">
+      <ul class="icons">
+          <li> <a href="https://www.instagram.com/thizy.lucie/" class=" instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+          <li class="email tooltip">
+              <i class="fa fa-envelope" aria-hidden="true" id="mail" onclick="setClipboard('thizy.lucie@gmail.com')"><span class="tooltiptext" id="text" >Cliquez ici pour copier mon adress mail :)</span>
+              <script src="./java-script/copy-email.js"></script> </i>
+          </li>
+          <li id="add-tab">|</li>
+          <li id="copyright"> Copyright © <script type="text/javascript">   document.write(new Date().getFullYear()); </script> Lucie Thizy </li>
+          <li id="push"> Création <a id="my-link">M.Kamińska</a></li>
+          <li><p id="disclaimer">Toutes les images présentes sur ce site nous appartiennent et restent la propriété exclusive de leurs créateurs ou propriétaires. </p></li>
+      </ul>
+  </div>
+</footer>
+
+</html>
+
