@@ -1,4 +1,11 @@
+<!DOCTYPE html>
 
+<html lang="fr">
+	
+<meta charset="UTF-8">
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<meta content="width=device-width,initial-scale=1" name="viewport">
+	
 <?php
 $title = "Page d'acceuil";
 $metaD = "Page d'acceuil";
